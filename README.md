@@ -8,8 +8,9 @@ The data is taken from the [United States Social Security website](https://www.s
 
 If you are already using the [Sopel IRC bot](https://sopel.chat/), installation is simple: put the names.py file in the modules directory. Next, [register an application on imgur](https://api.imgur.com/oauth2/addclient) in order for the module to create and upload graphs. The api key you get should be added to your sopel config file as follows:
 
-`[apikeys]
-imgur = codegoeshere`
+`[apikeys]`
+
+`imgur = codegoeshere`
 
 
 ## Command format
